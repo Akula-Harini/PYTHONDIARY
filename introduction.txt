@@ -1,0 +1,127 @@
+ PYTHON
+
+ => Python is a high-level, interpreted, general-purpose programming language.
+ => It emphasizes readability, simplicity, and productivity.
+ => guido van rossam is the father of the python.
+ => year -- 1989
+
+
+
+Features of Python
+
+Easy to Learn & Read	
+   Simple syntax close to human language.
+
+Interpreted Language
+   No need for compilation; runs directly from source.
+
+Dynamically Typed	
+   Variable types are determined at runtime.
+
+Object-Oriented
+    Everything is an object; supports classes, inheritance, etc.
+
+Cross-Platform	
+    Works on Windows, macOS, Linux, and mobile platforms.
+
+Extensive Libraries	
+    Comes with a large standard library + third-party ecosystem (PyPI).
+
+Open Source	
+    Freely available for modification and redistribution.
+
+Scalable	
+    Used for both small scripts and large enterprise systems.
+
+
+
+
+Basic syntax Example
+
+# Hello World program
+print("Hello, World!")
+
+# Variables and Data Types
+name = "HARI"
+age = 22
+is_student = True
+
+# Function
+def greet(person):
+    return f"Hello, {person}!"
+
+print(greet(name))
+
+
+
+Core concepts 
+
+| Concept                     | Description                                            |
+| --------------------------- | ------------------------------------------------------ |
+| **Data Types**              | int, float, str, bool, list, tuple, set, dict          |
+| **Control Flow**            | if, for, while, break, continue                        |
+| **Functions**               | Defined using `def`, can return values                 |
+| **Modules & Packages**      | Reusable code blocks; import with `import module_name` |
+| **Classes & Objects**       | Supports encapsulation, inheritance, polymorphism      |
+| **File Handling**           | Open/read/write files using `open()`                   |
+| **Error Handling**          | Try-except blocks to handle exceptions gracefully      |
+| **Decorators & Generators** | Advanced tools for clean, reusable code                |
+
+
+
+ Python Libraries (Standard & Popular)
+
+ Standard Library
+    os, sys, datetime, math, random, json, re, subprocess, etc.
+
+Popular Third-Party Libraries
+
+  Domain	                                   Libraries
+
+Data Science	                     numpy, pandas, matplotlib, scipy, seaborn
+Machine Learning	                 scikit-learn, tensorflow, pytorch, xgboost
+Web Development	                     django, flask, fastapi
+Automation / Scripting	             selenium, pyautogui, requests, beautifulsoup4
+Game Development                     pygame
+Networking / APIs	                 httpx, flask-restful, fastapi
+Cybersecurity / Hacking Tools	     scapy, paramiko, cryptography
+
+
+
+Applications of python
+
+| Field                      | Usage                                                     |
+| -------------------------- | --------------------------------------------------------- |
+| **Web Development**        | Server-side applications (Flask, Django)                  |
+| **Data Science**           | Analysis, visualization, and statistical computing        |
+| **AI & Machine Learning**  | Neural networks, NLP, and computer vision                 |
+| **Automation / Scripting** | Automate repetitive tasks (e.g., file handling, scraping) |
+| **Cybersecurity**          | Pen testing tools, network scanners                       |
+| **Game Development**       | Rapid prototyping, simple games                           |
+| **Embedded Systems**       | MicroPython for IoT and microcontrollers                  |
+| **Desktop Apps**           | GUI with Tkinter, PyQt, or Kivy                           |
+| **Education**              | Ideal for beginners due to simplicity                     |
+
+
+Advantages
+
+Beginner-friendly syntax.
+
+Huge community & documentation.
+
+Platform-independent.
+
+Excellent library support.
+
+Integrates with C/C++, Java, and web APIs.
+
+
+ Limitations
+
+Slower than compiled languages (e.g., C, C++).
+
+Not ideal for mobile app development.
+
+High memory usage.
+
+Limited in real-time systems.
